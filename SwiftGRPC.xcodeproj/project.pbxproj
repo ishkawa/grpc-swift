@@ -996,7 +996,7 @@
 		OBJ_110 /* cpu-intel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cpu-intel.c"; sourceTree = "<group>"; };
 		OBJ_1100 /* type.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
 		OBJ_1101 /* wrappers.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrappers.pb.swift; sourceTree = "<group>"; };
-		OBJ_1102 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ishkawa/dev/src/github.com/grpc/grpc-swift/.build/checkouts/swift-protobuf.git--7219529775138357838/Package.swift"; sourceTree = "<group>"; };
+		OBJ_1102 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = ".build/checkouts/swift-protobuf.git--7219529775138357838/Package.swift"; sourceTree = "<group>"; };
 		OBJ_111 /* cpu-ppc64le.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "cpu-ppc64le.c"; sourceTree = "<group>"; };
 		OBJ_112 /* crypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
 		OBJ_114 /* curve25519.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = curve25519.c; sourceTree = "<group>"; };
@@ -1311,7 +1311,7 @@
 		OBJ_424 /* ex_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_data.h; sourceTree = "<group>"; };
 		OBJ_425 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
 		OBJ_426 /* stack_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_macros.h; sourceTree = "<group>"; };
-		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/ishkawa/dev/src/github.com/grpc/grpc-swift/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_429 /* EchoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoProvider.swift; sourceTree = "<group>"; };
 		OBJ_43 /* tasn_typ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_typ.c; sourceTree = "<group>"; };
 		OBJ_431 /* echo.grpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echo.grpc.swift; sourceTree = "<group>"; };
@@ -1787,7 +1787,7 @@
 		OBJ_938 /* connectivity_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectivity_state.h; sourceTree = "<group>"; };
 		OBJ_939 /* sync_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sync_windows.h; sourceTree = "<group>"; };
 		OBJ_94 /* e_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes.c; sourceTree = "<group>"; };
-		OBJ_940 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/ishkawa/dev/src/github.com/grpc/grpc-swift/Sources/CgRPC/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_940 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "Sources/CgRPC/include/module.modulemap"; sourceTree = "<group>"; };
 		OBJ_942 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_944 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_947 /* BasicEchoTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicEchoTestCase.swift; sourceTree = "<group>"; };
@@ -1810,7 +1810,6 @@
 		OBJ_962 /* echo.grpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echo.grpc.swift; sourceTree = "<group>"; };
 		OBJ_963 /* echo.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echo.pb.swift; sourceTree = "<group>"; };
 		OBJ_964 /* Docker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Docker; sourceTree = SOURCE_ROOT; };
-		OBJ_965 /* Plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Plugin; sourceTree = SOURCE_ROOT; };
 		OBJ_966 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = third_party; sourceTree = SOURCE_ROOT; };
 		OBJ_967 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
 		OBJ_968 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = SOURCE_ROOT; };
@@ -1826,7 +1825,7 @@
 		OBJ_98 /* e_rc2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_rc2.c; sourceTree = "<group>"; };
 		OBJ_980 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		OBJ_981 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
-		OBJ_982 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/ishkawa/dev/src/github.com/grpc/grpc-swift/.build/checkouts/Commander.git-8842944228949165507/Package.swift"; sourceTree = "<group>"; };
+		OBJ_982 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = ".build/checkouts/Commander.git-8842944228949165507/Package.swift"; sourceTree = "<group>"; };
 		OBJ_986 /* CommandLine+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CommandLine+Extensions.swift"; sourceTree = "<group>"; };
 		OBJ_987 /* Descriptor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Descriptor+Extensions.swift"; sourceTree = "<group>"; };
 		OBJ_988 /* EnumGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumGenerator.swift; sourceTree = "<group>"; };
@@ -2799,7 +2798,6 @@
 				OBJ_7 /* Sources */,
 				OBJ_945 /* Tests */,
 				OBJ_964 /* Docker */,
-				OBJ_965 /* Plugin */,
 				OBJ_966 /* third_party */,
 				OBJ_967 /* Examples */,
 				OBJ_968 /* scripts */,
