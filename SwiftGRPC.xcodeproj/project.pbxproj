@@ -1311,7 +1311,7 @@
 		OBJ_424 /* ex_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_data.h; sourceTree = "<group>"; };
 		OBJ_425 /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
 		OBJ_426 /* stack_macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack_macros.h; sourceTree = "<group>"; };
-		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_427 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap; sourceTree = "<group>"; };
 		OBJ_429 /* EchoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoProvider.swift; sourceTree = "<group>"; };
 		OBJ_43 /* tasn_typ.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tasn_typ.c; sourceTree = "<group>"; };
 		OBJ_431 /* echo.grpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = echo.grpc.swift; sourceTree = "<group>"; };
@@ -1787,7 +1787,7 @@
 		OBJ_938 /* connectivity_state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectivity_state.h; sourceTree = "<group>"; };
 		OBJ_939 /* sync_windows.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sync_windows.h; sourceTree = "<group>"; };
 		OBJ_94 /* e_aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_aes.c; sourceTree = "<group>"; };
-		OBJ_940 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "Sources/CgRPC/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_940 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Sources/CgRPC/include/module.modulemap; sourceTree = "<group>"; };
 		OBJ_942 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_944 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_947 /* BasicEchoTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicEchoTestCase.swift; sourceTree = "<group>"; };
@@ -2791,7 +2791,7 @@
 			path = gen;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2806,7 +2806,6 @@
 				OBJ_1103 /* Products */,
 			);
 			indentWidth = 2;
-			name = "";
 			sourceTree = "<group>";
 			tabWidth = 2;
 			usesTabs = 0;
@@ -4213,7 +4212,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_1103 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -5161,7 +5160,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = BoringSSL;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.BoringSSL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5191,7 +5190,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = BoringSSL;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.BoringSSL;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5222,7 +5221,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CgRPC;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.CgRPC;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5253,7 +5252,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = CgRPC;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.CgRPC;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5348,7 +5347,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftGRPC;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftGRPC;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5380,7 +5379,7 @@
 					"-lz",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/Sources/CgRPC/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/SwiftGRPC.xcodeproj/GeneratedModuleMap/BoringSSL/module.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftGRPC;
+				PRODUCT_BUNDLE_IDENTIFIER = io.grpc.SwiftGRPC;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5489,7 +5488,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.SwiftProtobuf;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -5512,7 +5511,7 @@
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftProtobuf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.SwiftProtobuf;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
