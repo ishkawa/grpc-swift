@@ -1,0 +1,4 @@
+module Czlib {
+    umbrella "/Users/ishkawa/dev/src/github.com/grpc/grpc-swift/.build/checkouts/zlib.git--9016602441419864029/Sources/Czlib/include"
+    export *
+}
