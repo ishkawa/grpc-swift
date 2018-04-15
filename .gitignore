@@ -2,7 +2,8 @@
 project.xcworkspace
 xcuserdata
 DerivedData/
-.build
+.build/*
+!.build/checkouts
 /protoc-gen-swift
 /protoc-gen-swiftgrpc
 third_party/**
