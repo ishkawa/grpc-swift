@@ -27,6 +27,10 @@ cgrpc_header.settings = { 'ATTRIBUTES' => ['Public'] }
 # Set each target's iOS deployment target to 9.0
 project.targets.each do |target|
   target.build_configurations.each do |config|
+    if target.name == 'SwiftGRPC' then
+      config.build_settings["FRAMEWORK_SEARCH_PATHS"].push("Carthage/Build/iOS")
+    end
+
     config.build_settings["IPHONEOS_DEPLOYMENT_TARGET"] = "9.0"
     if config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"] then
       config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"] = "io.grpc." + config.build_settings["PRODUCT_BUNDLE_IDENTIFIER"]
